@@ -1,0 +1,176 @@
+.container_6 {
+width: 1020px;
+margin-left: auto;
+margin-right: auto
+}
+.grid_1 {
+position: relative;
+display: inline;
+float: left;
+margin-left: 10px;
+margin-right: 10px
+}
+.grid_2 {
+position: relative;
+display: inline;
+float: left;
+margin-left: 10px;
+margin-right: 10px
+}
+.grid_3 {
+position: relative;
+display: inline;
+float: left;
+margin-left: 10px;
+margin-right: 10px
+}
+.grid_4 {
+position: relative;
+display: inline;
+float: left;
+margin-left: 10px;
+margin-right: 10px
+}
+.grid_5 {
+position: relative;
+display: inline;
+float: left;
+margin-left: 10px;
+margin-right: 10px
+}
+.grid_6 {
+position: relative;
+display: inline;
+float: left;
+margin-left: 10px;
+margin-right: 10px
+}
+
+.alpha {
+margin-left: 0px
+}
+.omega {
+margin-right: 0px
+}
+.container_6 .grid_1 {
+width: 150px
+}
+.container_6 .grid_2 {
+width: 300px
+}
+.container_6 .grid_3 {
+width: 450px
+}
+.container_6 .grid_4 {
+width: 600px
+}
+.container_6 .grid_5 {
+width: 750px
+}
+.container_6 .grid_6 {
+width: 900px
+}
+
+.container_6 .prefix_1 {
+padding-left: 150px
+}
+.container_6 .prefix_2 {
+padding-left: 300px
+}
+.container_6 .prefix_3 {
+padding-left: 450px
+}
+.container_6 .prefix_4 {
+padding-left: 600px
+}
+.container_6 .prefix_5 {
+padding-left: 750px
+}
+.container_6 .prefix_6 {
+padding-left: 900px
+}
+
+.container_6 .suffix_1 {
+padding-right: 150px
+}
+.container_6 .suffix_2 {
+padding-right: 300px
+}
+.container_6 .suffix_3 {
+padding-right: 450px
+}
+.container_6 .suffix_4 {
+padding-right: 600px
+}
+.container_6 .suffix_5 {
+padding-right: 750px
+}
+.container_6 .suffix_6 {
+padding-right: 900px
+}
+
+.container_6 .push_1 {
+left: 80px
+}
+.container_6 .push_2 {
+left: 160px
+}
+.container_6 .push_3 {
+left: 240px
+}
+.container_6 .push_4 {
+left: 320px
+}
+.container_6 .push_5 {
+left: 400px
+}
+.container_6 .push_6 {
+left: 480px
+}
+
+.container_6 .pull_1 {
+left: -80px
+}
+.container_6 .pull_2 {
+left: -160px
+}
+.container_6 .pull_3 {
+left: -240px
+}
+.container_6 .pull_4 {
+left: -320px
+}
+.container_6 .pull_5 {
+left: -400px
+}
+.container_6 .pull_6 {
+left: -480px
+}
+
+.clear {
+width: 0px;
+display: block;
+height: 0px;
+visibility: hidden;
+clear: both;
+overflow: hidden
+}
+.clearfix:after {
+line-height: 0;
+width: 0px;
+display: block;
+height: 0px;
+visibility: hidden;
+clear: both;
+font-size: 0px;
+content: ' '
+}
+.clearfix {
+display: inline-block
+}
+* html .clearfix {
+height: 1%
+}
+.clearfix {
+display: block
+}
