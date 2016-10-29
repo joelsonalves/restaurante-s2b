@@ -70,7 +70,7 @@
   width: 100%;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (min-width: 550px) {
   .column-1,
   .column-2,
   .column-3,
@@ -101,7 +101,7 @@ body {
 
 header#cabecalho-principal {
 	position: fixed;
-	background: yellow;
+	background-color: #f6f997;
 	height: 100px;
 	width: 100%;
 }
@@ -124,19 +124,14 @@ header#cabecalho-principal > nav#menu a {
 	text-decoration: none;
 }
 
-header#cabecalho-principal > nav#menu span {
-	border-width: 2px;
-	border-style: solid;
-	border-color: #fff;
-	border-radius: 0px 10px;
-	padding: 5px;
-	font-weight: bold;
-	color: #fb2020;
+header#cabecalho-principal > nav#menu i {
+	color: #d41a19;
+	font-size: 200%;
 }
 
-header#cabecalho-principal > nav#menu span:hover {
-	color: #fff;
-	background: #fb2020;
+header#cabecalho-principal > nav#menu i:hover {
+	color: #000;
+	text-shadow: 1px 1px #fff;
 }
 
 header#cabecalho-principal > div#carrinho {
@@ -144,4 +139,18 @@ header#cabecalho-principal > div#carrinho {
 	margin-right: 20px;
 	line-height: 100px;
 	word-spacing: 10px;
+}
+
+header#cabecalho-principal > div#carrinho a {
+	text-decoration: none;
+}
+
+header#cabecalho-principal > div#carrinho i {
+	color: #d41a19;
+	font-size: 200%;
+}
+
+header#cabecalho-principal > div#carrinho i:hover {
+	color: #000;
+	text-shadow: 1px 1px #fff;
 }
