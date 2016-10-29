@@ -102,7 +102,7 @@ body {
 header#cabecalho-principal {
 	position: fixed;
 	background-color: #f6f997;
-	height: 100px;
+	min-height: 100px;
 	width: 100%;
 }
 
@@ -114,43 +114,32 @@ header#cabecalho-principal > div#logo {
 }
 
 header#cabecalho-principal > nav#menu {
-	float: left;
-	margin-left: 20px;
 	line-height: 100px;
 	word-spacing: 10px;
 }
 
-header#cabecalho-principal > nav#menu a {
-	text-decoration: none;
+header#cabecalho-principal > nav#menu > div#menu-esquerdo {
+	float: left;
+	margin-left: 20px;
 }
 
-header#cabecalho-principal > nav#menu i {
+header#cabecalho-principal > nav#menu > div#menu-direito {
+	float: right;
+	margin-right: 20px;
+}
+
+header#cabecalho-principal > nav#menu > div#menu-esquerdo a, div#menu-direito  a {
+	text-decoration: none;
 	color: #d41a19;
 	font-size: 200%;
 }
 
-header#cabecalho-principal > nav#menu i:hover {
+header#cabecalho-principal > nav#menu > div#menu-esquerdo a:hover, div#menu-direito  a:hover {
 	color: #000;
 	text-shadow: 1px 1px #fff;
 }
 
-header#cabecalho-principal > div#carrinho {
-	float: right;
-	margin-right: 20px;
-	line-height: 100px;
-	word-spacing: 10px;
-}
-
-header#cabecalho-principal > div#carrinho a {
-	text-decoration: none;
-}
-
-header#cabecalho-principal > div#carrinho i {
-	color: #d41a19;
-	font-size: 200%;
-}
-
-header#cabecalho-principal > div#carrinho i:hover {
-	color: #000;
+header#cabecalho-principal > nav#menu > div#menu-esquerdo a:active, div#menu-direito  a:active {
+	color: #999;
 	text-shadow: 1px 1px #fff;
 }
