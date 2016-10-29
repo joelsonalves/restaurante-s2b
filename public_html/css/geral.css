@@ -102,19 +102,38 @@ body {
 header#cabecalho-principal {
 	position: fixed;
 	background-color: #f6f997;
-	min-height: 100px;
+	min-height: 50px;
 	width: 100%;
 }
 
 header#cabecalho-principal > div#logo {
 	float: left;
 	margin-left: 20px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 5px;
+}
+
+header#cabecalho-principal > div#logo img {
+	opacity: 1;
+	transition: all .5s linear;
+}
+
+header#cabecalho-principal > div#logo img:hover {
+	opacity: .5;
+	transition: all .5s linear;
+}
+
+header#cabecalho-principal > div#logo img:active {
+	opacity: .1;
+	transition: all .5s linear;
+}
+
+header#cabecalho-principal > div#logo a {
+	text-decoration: none;
+	border: 0;
 }
 
 header#cabecalho-principal > nav#menu {
-	line-height: 100px;
+	line-height: 50px;
 	word-spacing: 10px;
 }
 
