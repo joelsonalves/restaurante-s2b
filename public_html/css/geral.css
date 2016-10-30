@@ -151,14 +151,17 @@ header#cabecalho-principal > nav#menu > div#menu-esquerdo a, div#menu-direito  a
 	text-decoration: none;
 	color: #d41a19;
 	font-size: 200%;
+	transition: all .5s linear;
 }
 
 header#cabecalho-principal > nav#menu > div#menu-esquerdo a:hover, div#menu-direito  a:hover {
 	color: #000;
 	text-shadow: 1px 1px #fff;
+	transition: all .5s linear;
 }
 
 header#cabecalho-principal > nav#menu > div#menu-esquerdo a:active, div#menu-direito  a:active {
 	color: #999;
 	text-shadow: 1px 1px #fff;
+	transition: all .5s linear;
 }
