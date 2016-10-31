@@ -165,3 +165,42 @@ header#cabecalho-principal > nav#menu > div#menu-esquerdo a:active, div#menu-dir
 	text-shadow: 1px 1px #fff;
 	transition: all .5s linear;
 }
+
+@keyframes banner {
+	0% {
+		background: url(../img/banner/img1.jpg);
+		background-size: cover;
+    	background-repeat: no-repeat;
+	}
+	25% {
+		background: url(../img/banner/img2.jpg);
+		background-size: cover;
+    	background-repeat: no-repeat;
+	}
+	50% {
+		background: url(../img/banner/img3.jpg);
+		background-size: cover;
+    	background-repeat: no-repeat;
+	}
+	75% {
+		background: url(../img/banner/img4.jpg);
+		background-size: cover;
+    	background-repeat: no-repeat;
+	}
+	100% {
+		background: url(../img/banner/img5.jpg);
+		background-size: cover;
+    	background-repeat: no-repeat;
+	}
+
+}
+
+div#banner {
+	height: 250px;
+	width: 100%;
+	animation-name: banner;
+	animation-duration: 60s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-direction: alternate;
+}
