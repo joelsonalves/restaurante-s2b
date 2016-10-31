@@ -202,5 +202,5 @@ div#banner {
 	animation-duration: 60s;
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-in-out;
-	animation-direction: alternate;
+	animation-direction: alternate-reverse;
 }
