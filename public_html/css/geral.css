@@ -204,3 +204,7 @@ div#banner {
 	animation-timing-function: ease-in-out;
 	animation-direction: alternate-reverse;
 }
+
+div#banner:hover {
+	animation-play-state: paused;
+}
