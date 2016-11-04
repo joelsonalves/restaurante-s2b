@@ -117,6 +117,8 @@ body {
 	background-repeat: repeat;
 }
 
+/* página index.html */
+
 header#home-cabecalho > div#home-banner {
 	width: 100vw;
 	height: 40vh;
@@ -174,4 +176,48 @@ section#home-conteudo form input[type="submit"] {
 	padding: 5px;
 }
 
+/* página monte-sua-massa.html */
 
+header#geral-cabecalho {
+  width: 100vw;
+  height: auto;
+}
+
+header#geral-cabecalho > div#geral-cabecalho-menu {
+  width: 100vw;
+  min-height: 40px;
+  background: yellow;
+  margin-top: 90px;
+}
+
+header#geral-cabecalho > div#geral-cabecalho-menu > div#geral-cabecalho-menu-esquerdo {
+  
+}
+
+header#geral-cabecalho > div#geral-cabecalho-menu > div#geral-cabecalho-menu-esquerdo {
+  
+}
+
+header#geral-cabecalho > div#geral-cabecalho-logo {
+  margin-top: -120px;
+  margin-left: -100px;
+  position: relative;
+  top: 0;
+  left: 50vw;
+}
+
+header#geral-cabecalho > div#geral-cabecalho-logo img {
+  height: auto;
+  width: 200px;
+}
+
+header#geral-cabecalho > section#geral-cabecalho-conteudo {
+  text-align: center;
+}
+
+header#geral-cabecalho > section#geral-cabecalho-conteudo span {
+  font-family: 'Pacifico', sans-serif;
+  font-size: 300%;
+  color: white;
+  text-shadow: 5px 5px black;
+}
