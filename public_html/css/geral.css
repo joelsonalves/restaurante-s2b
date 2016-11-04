@@ -216,6 +216,8 @@ header#geral-cabecalho > div#geral-cabecalho-menu > div#geral-cabecalho-menu-dir
 }
 
 header#geral-cabecalho > div#geral-cabecalho-logo {
+  width: 200px;
+  height: auto;
   margin-top: -125px;
   margin-left: -100px;
   position: relative;
