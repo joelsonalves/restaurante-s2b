@@ -92,79 +92,58 @@
   }
 }
 
-@font-face {
-    font-family: Pacifico;
-    src: url(../font/Pacifico.ttf);
-}
-
-@font-face {
-    font-family: HelveticaNeueLTStd-Cn;
-    src: url(../font/HelveticaNeueLTStd-Cn.otf);
-}
-
-@font-face {
-    font-family: HelveticaNeueLTStd-ThCn;
-    src: url(../font/HelveticaNeueLTStd-ThCn.otf);
-}
-
 body {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-family: 'HelveticaNeueLTStd-Cn', sans-serif;
-	background: url(../img/fundo.png);
-	background-size: 30px 30px;
-	background-repeat: repeat;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
-header#home-cabecalho > div#home-banner {
+div#home-cabecalho {
 	width: 100vw;
-	height: 40vh;
-	background: url(../img/home/cabecalho/banner/img3.jpg);
+	height: 90vh;
+	background: url(../img/home/cabecalho/img3.jpg);
 	background-position: center;
 	background-size: cover;
-	border-bottom-left-radius: 70% 70%;
-	border-bottom-right-radius: 70% 70%;
-	box-shadow: 0px 10px white;
 }
 
-header#home-cabecalho > div#home-logo {
-	text-align: center;
-	margin-top: -200px;
-}
-
-header#home-cabecalho > div#home-logo img {
-	width: auto;
-	height: 400px;
-}
-
-section#home-conteudo {
+div#home-rodape {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100vw;
+	height: 60vh;
+	background: url(../img/home/rodape/fundo.png);
+	background-repeat: no-repeat;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
 	text-align: center;
 }
 
-section#home-conteudo span {
-	font-family: 'Pacifico', sans-serif;
-	font-size: 300%;
-	color: white;
-	text-shadow: 5px 5px black;
+div#home-rodape img {
+	margin-top: -100px;
+	width: 200px;
+	height: 200px;
 }
 
-section#home-conteudo form {
-	
-	padding: 20px;
+div#home-rodape p {
+	font-family: arial;
+	font-size: 200%;
 }
 
-section#home-conteudo form input[type="text"] {
+div#home-rodape form input[type="text"] {
 	margin-right: 0;
 	font-size: 120%;
 	border-color: white;
 	border-radius: 10px 0 0 10px;
+	border-color: white;
 	padding: 5px;
-	color: red;
+	
 }
 
-section#home-conteudo form input[type="submit"] {
-	margin-left: -4px;
+div#home-rodape form input[type="submit"] {
+	margin-left: 0;
 	font-size: 120%;
 	font-weight: bold;
 	border-color: yellow;
@@ -172,6 +151,20 @@ section#home-conteudo form input[type="submit"] {
 	background-color: yellow;
 	color: red;
 	padding: 5px;
+	
 }
 
-
+/*
+div#home-rodape > div#home-logo {
+	position: relative;
+	left: 50vw;
+	margin-left: -20vw;
+	margin-top: -10vw;
+	width: 40vw;
+	height: 40vh;
+	background: url(../img/home/logo.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: contain;
+}
+*/
