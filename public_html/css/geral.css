@@ -185,21 +185,38 @@ header#geral-cabecalho {
 
 header#geral-cabecalho > div#geral-cabecalho-menu {
   width: 100vw;
-  min-height: 40px;
+  height: 50px;
+  line-height: 50px;
   background: yellow;
   margin-top: 90px;
+  box-shadow: 0 5px black;
+}
+
+header#geral-cabecalho > div#geral-cabecalho-menu i {
+  font-size: 200%;
+}
+
+header#geral-cabecalho > div#geral-cabecalho-menu span {
+  font-size: 120%;
+}
+
+header#geral-cabecalho > div#geral-cabecalho-menu a {
+  color: red;
+  text-decoration: none;
 }
 
 header#geral-cabecalho > div#geral-cabecalho-menu > div#geral-cabecalho-menu-esquerdo {
-  
+  margin-left: 20px;
+  display: inline-block;
 }
 
-header#geral-cabecalho > div#geral-cabecalho-menu > div#geral-cabecalho-menu-esquerdo {
-  
+header#geral-cabecalho > div#geral-cabecalho-menu > div#geral-cabecalho-menu-direito {
+  margin-right: 20px;
+  float:right;
 }
 
 header#geral-cabecalho > div#geral-cabecalho-logo {
-  margin-top: -120px;
+  margin-top: -125px;
   margin-left: -100px;
   position: relative;
   top: 0;
