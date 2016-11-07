@@ -1,3 +1,5 @@
+/* Início dos estilos de GRID 
+
 .row,
 .column {
   box-sizing: border-box;
@@ -92,6 +94,8 @@
   }
 }
 
+/* Fim dos estilos de GRID */
+
 @font-face {
     font-family: Pacifico;
     src: url(../font/Pacifico.ttf);
@@ -176,7 +180,7 @@ section#home-conteudo form input[type="submit"] {
 	padding: 5px;
 }
 
-/* página monte-sua-massa.html */
+/* estilos comuns */
 
 header#geral-cabecalho {
   width: 100vw;
@@ -187,7 +191,7 @@ header#geral-cabecalho > div#geral-cabecalho-menu {
   width: 100vw;
   height: 50px;
   line-height: 50px;
-  background: yellow;
+  background: orange;
   margin-top: 90px;
   box-shadow: 0 5px black;
 }
@@ -198,6 +202,7 @@ header#geral-cabecalho > div#geral-cabecalho-menu i {
 
 header#geral-cabecalho > div#geral-cabecalho-menu span {
   font-size: 120%;
+  font-weight: bold;
 }
 
 header#geral-cabecalho > div#geral-cabecalho-menu a {
@@ -232,6 +237,7 @@ header#geral-cabecalho > div#geral-cabecalho-logo img {
 
 header#geral-cabecalho > section#geral-cabecalho-conteudo {
   text-align: center;
+  padding-bottom: 20px; 
 }
 
 header#geral-cabecalho > section#geral-cabecalho-conteudo span {
@@ -240,3 +246,56 @@ header#geral-cabecalho > section#geral-cabecalho-conteudo span {
   color: white;
   text-shadow: 5px 5px black;
 }
+
+/* estilos da montagem de massa */
+
+section#montar-prato {
+	text-align: center;
+}
+
+section#montar-prato > div#montar-prato-opcoes {
+	font-size: 120%;
+}
+
+section#montar-prato > div#montar-prato-opcoes span {
+	padding: 5px;
+	background: none;
+	color: white;
+	font-weight: bold;
+	border-radius: none;
+}
+
+section#montar-prato > div#montar-prato-opcoes span.selecionado {
+	padding-left: 10px;
+	padding-right: 10px;
+	background: orange;
+	color: red;
+	font-weight: bold;
+	border-radius: 20px 20px 0 0;
+}
+
+section#montar-prato > div#montar-prato-opcoes-selecionadas {
+	font-size: 100%;
+	background: orange;
+	color: white;
+	padding: 5px;
+}
+
+section#montar-prato > div#montar-prato-opcoes-selecionadas > div.opcao-do-meio {
+	border-left: 2px solid red;
+	border-right: 2px solid red;
+}
+
+section#montar-prato > div#montar-prato-opcoes-selecionadas span {
+	padding: 5px;
+	background: none;
+	color: white;
+	font-weight: none;
+	border-radius: none;
+}
+
+section#montar-prato > section#montar-prato-itens-da-opcao {
+	padding: 10px 0;
+	background: white;
+}
+
