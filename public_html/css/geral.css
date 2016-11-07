@@ -1,101 +1,3 @@
-/* Início dos estilos de GRID 
-
-.row,
-.column {
-  box-sizing: border-box;
-}
-
-.row:before,
-.row:after {
-  content: " ";
-  display: table;
-}
- 
-.row:after {
-  clear: both;
-}
-
-.column {
-  position: relative;
-  float: left;
-}
-
-.column + .column {
-  margin-left: 1.6%;
-}
-
-.column-1 {
-  width: 6.86666666667%;
-}
- 
-.column-2 {
-  width: 15.3333333333%;
-}
- 
-.column-3 {
-  width: 23.8%;
-}
- 
-.column-4 {
-  width: 32.2666666667%;
-}
- 
-.column-5 {
-  width: 40.7333333333%;
-}
- 
-.column-6 {
-  width: 49.2%;
-}
- 
-.column-7 {
-  width: 57.6666666667%;
-}
- 
-.column-8 {
-  width: 66.1333333333%;
-}
- 
-.column-9 {
-  width: 74.6%;
-}
- 
-.column-10 {
-  width: 83.0666666667%;
-}
- 
-.column-11 {
-  width: 91.5333333333%;
-}
- 
-.column-12 {
-  width: 100%;
-}
-
-@media only screen and (min-width: 550px) {
-  .column-1,
-  .column-2,
-  .column-3,
-  .column-4,
-  .column-5,
-  .column-6,
-  .column-7,
-  .column-8,
-  .column-9,
-  .column-10,
-  .column-11,
-  .column-12 {
-    width: auto;
-    float: none;
-  }
- 
-  .column + .column {
-    margin-left: 0;
-  }
-}
-
-/* Fim dos estilos de GRID */
-
 @font-face {
     font-family: Pacifico;
     src: url(../font/Pacifico.ttf);
@@ -152,7 +54,6 @@ section#home-conteudo span {
 	font-family: 'Pacifico', sans-serif;
 	font-size: 300%;
 	color: white;
-	text-shadow: 5px 5px black;
 }
 
 section#home-conteudo form {
@@ -166,17 +67,17 @@ section#home-conteudo form input[type="text"] {
 	border-color: white;
 	border-radius: 10px 0 0 10px;
 	padding: 5px;
-	color: red;
+	color: #81131B;
 }
 
 section#home-conteudo form input[type="submit"] {
 	margin-left: -4px;
 	font-size: 120%;
 	font-weight: bold;
-	border-color: yellow;
+	border-color: #F6AB40;
 	border-radius: 0 10px 10px 0;
-	background-color: yellow;
-	color: red;
+	background-color: #F6AB40;
+	color: #81131B;
 	padding: 5px;
 }
 
@@ -191,7 +92,7 @@ header#geral-cabecalho > div#geral-cabecalho-menu {
   width: 100vw;
   height: 50px;
   line-height: 50px;
-  background: orange;
+  background: #F6AB40;
   margin-top: 90px;
   box-shadow: 0 5px black;
 }
@@ -206,8 +107,14 @@ header#geral-cabecalho > div#geral-cabecalho-menu span {
 }
 
 header#geral-cabecalho > div#geral-cabecalho-menu a {
-  color: red;
+  color: #81131B;
   text-decoration: none;
+  transition: linear 1s all;
+}
+
+header#geral-cabecalho > div#geral-cabecalho-menu a:hover {
+  text-shadow: 0 1px white;
+  transition: linear 1s all;
 }
 
 header#geral-cabecalho > div#geral-cabecalho-menu > div#geral-cabecalho-menu-esquerdo {
@@ -244,15 +151,26 @@ header#geral-cabecalho > section#geral-cabecalho-conteudo span {
   font-family: 'Pacifico', sans-serif;
   font-size: 300%;
   color: white;
-  text-shadow: 5px 5px black;
 }
 
 footer#geral-rodape {
-  background: orange;
+  background: #F6AB40;
+  color: #81131B;
+  padding: 5px 0;
+  margin-top: 20px;
 }
 
-footer#geral-rodape > {
-  background: orange;
+footer#geral-rodape > div#geral-rodape-conteudo {
+  text-align: center;
+}
+
+footer#geral-rodape > div#geral-rodape-conteudo a {
+  text-decoration: none;
+}
+
+footer#geral-rodape > div#geral-rodape-conteudo img {
+  width: 20px;
+  height: auto;
 }
 
 /* Fim dos estilos comuns */
@@ -267,37 +185,52 @@ section#montar-prato > div#montar-prato-opcoes {
 	font-size: 120%;
 }
 
+section#montar-prato > div#montar-prato-opcoes a {
+	text-decoration: none;
+}
+
 section#montar-prato > div#montar-prato-opcoes span {
 	padding: 5px;
 	background: none;
 	color: white;
 	font-weight: bold;
 	border-radius: none;
+	transition: linear 1s all;
+}
+
+section#montar-prato > div#montar-prato-opcoes span:hover {
+	color: #F6AB40;
+	transition: linear 1s all;
 }
 
 section#montar-prato > div#montar-prato-opcoes span.selecionado {
 	padding-left: 10px;
 	padding-right: 10px;
-	background: orange;
-	color: red;
+	background: #F6AB40;
+	color: #81131B;
 	font-weight: bold;
 	border-radius: 20px 20px 0 0;
 }
 
+section#montar-prato > div#montar-prato-opcoes span.selecionado:hover {
+	text-shadow: 0 1px white;
+  	transition: linear 1s all;
+}
+
 section#montar-prato > div#montar-prato-opcoes-selecionadas {
 	font-size: 100%;
-	background: orange;
+	background: #F6AB40;
 	color: white;
 	padding: 5px;
 }
 
 section#montar-prato > div#montar-prato-opcoes-selecionadas > div.opcao-do-meio {
-	border-left: 2px solid red;
-	border-right: 2px solid red;
+	border-left: 2px solid #81131B;
+	border-right: 2px solid #81131B;
 }
 
 section#montar-prato > div#montar-prato-opcoes-selecionadas span {
-	padding: 5px;
+	padding: 5px 0;
 	background: none;
 	color: white;
 	font-weight: none;
@@ -307,6 +240,26 @@ section#montar-prato > div#montar-prato-opcoes-selecionadas span {
 section#montar-prato > section#montar-prato-itens-da-opcao {
 	padding: 10px 0;
 	background: white;
+}
+
+section#montar-prato > section#montar-prato-itens-da-opcao a {
+	text-decoration: none;
+}
+
+section#montar-prato > section#montar-prato-itens-da-opcao img {
+	width: 100%;
+	height: auto;
+	opacity: .9;
+}
+
+section#montar-prato > section#montar-prato-itens-da-opcao img:hover {
+	opacity: 1;
+}
+
+section#montar-prato > section#montar-prato-itens-da-opcao span {
+	font-size: 120%;
+	color: #81131B;
+	font-weight: bold;
 }
 
 /* Fim dos estilos da montagem de massa */
