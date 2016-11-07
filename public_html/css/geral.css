@@ -247,7 +247,17 @@ header#geral-cabecalho > section#geral-cabecalho-conteudo span {
   text-shadow: 5px 5px black;
 }
 
-/* estilos da montagem de massa */
+footer#geral-rodape {
+  background: orange;
+}
+
+footer#geral-rodape > {
+  background: orange;
+}
+
+/* Fim dos estilos comuns */
+
+/* Estilos da montagem de massa */
 
 section#montar-prato {
 	text-align: center;
@@ -299,3 +309,4 @@ section#montar-prato > section#montar-prato-itens-da-opcao {
 	background: white;
 }
 
+/* Fim dos estilos da montagem de massa */
