@@ -13,6 +13,12 @@
     src: url(../font/HelveticaNeueLTStd-ThCn.otf);
 }
 
+@media screen and (max-width: 500px) {
+	header#geral-cabecalho > div#geral-cabecalho-menu span {
+  		display: none;
+	}
+}
+
 body {
 	margin: 0;
 	padding: 0;
