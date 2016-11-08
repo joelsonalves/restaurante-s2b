@@ -162,8 +162,7 @@ header#geral-cabecalho > section#geral-cabecalho-conteudo span {
 footer#geral-rodape {
   background: #F6AB40;
   color: #81131B;
-  padding: 5px 0;
-  margin-top: 20px;
+  padding: 10px 0;
 }
 
 footer#geral-rodape > div#geral-rodape-conteudo {
@@ -245,7 +244,10 @@ section#montar-prato > div#montar-prato-opcoes-selecionadas span {
 
 section#montar-prato > section#montar-prato-itens-da-opcao {
 	padding: 10px 0;
-	background: white;
+	background: white url(../img/fundo2.png);
+	background-size: 300px 300px;
+	background-repeat: repeat;
+	padding-bottom: 50px;
 }
 
 section#montar-prato > section#montar-prato-itens-da-opcao a {
