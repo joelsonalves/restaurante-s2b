@@ -15,7 +15,7 @@
 		<div id="geral-cabecalho-menu">
 			
 			<div id="geral-cabecalho-menu-esquerdo">
-				<a href="/" title="Página Inicial">
+				<a href="index.html" title="Página Inicial">
 					<i class="fa fa-home" aria-hidden="true"></i>
 					<span>Home</span>
 				</a>
@@ -31,7 +31,7 @@
 		</div>
 
 		<div id="geral-cabecalho-logo">
-			<a href="/" title="Macarrone Delivery">
+			<a href="index.html" title="Macarrone Delivery">
 				<img src="img/logo.png" alt="Logo">
 			</a>
 		</div>
@@ -42,70 +42,108 @@
 
 	</header>
 
-	<section id="montar-prato" class="container-fluid">
+	<section id="carrinho-conteudo" class="container-fluid">
 		
-		<div id="montar-prato-opcoes" class="row">
+		<div class="row col-xs-12">
+			<table>
+				<thead>
+					<tr>
+						<th>Prato</th>
+						<th>Quantidade</th>
+						<th>Valor Unitário</th>
+						<th>Valor Total</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<b>Macarrão:</b> Penne<br>
+							<b>Molho:</b> Tomate<br>
+							<b>Recheio:</b> Camarão e Mussarela
+						</td>
+						<td>
+							<a href="#" title="Diminuir a quantidade">
+								<i class="fa fa-caret-down" aria-hidden="true"></i>
+							</a>
+							1
+							<a href="#" title="Aumentar a quantidade">
+								<i class="fa fa-caret-up" aria-hidden="true"></i>
+							</a>
+						</td>>
+						<td>R$ 14,99</td>
+						<td>R$ 14,99</td>
+					</tr>
+					<tr>
+						<td>
+							<b>Macarrão:</b> Parafuso<br>
+							<b>Molho:</b> Pesto<br>
+							<b>Recheio:</b> Charque e Queijo do Reino
+						</td>
+						<td>
+							<a href="#" title="Diminuir a quantidade">
+								<i class="fa fa-caret-up" aria-hidden="true"></i>
+							</a>
+							2
+							<a href="#" title="Aumentar a quantidade">
+								<i class="fa fa-caret-down" aria-hidden="true"></i>
+							</a>
+						</td>>
+						<td>R$ 14,99</td>
+						<td>R$ 29,98</td>
+					</tr>
+				</tbody>
 			
-			<div class="col-xs-4">
-				<a href="escolher-macarrao.html" title="Escolha seu Macarrão!">
-					<span class="selecionado">Macarrão</span>
-				</a>
-			</div>
-
-			<div class="col-xs-4">
-				<a href="escolher-molho.html" title="Escolha seu Molho!">
-					<span>Molho</span>
-				</a>
-			</div>
-
-			<div class="col-xs-4">
-				<a href="escolher-recheio.html" title="Escolha seu Recheio!">
-					<span>Recheio</span>
-				</a>
-			</div>
-
+				<thead>
+					<tr>
+						<th>Subtotal</th>
+						<th>Taxa de Entrega</th>
+						<th>Desconto do Dia</th>
+						<th>Total a Pagar</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>R$ 44,97</td>
+						<td>R$ 4,99</td>
+						<td>R$ 0,00</td>
+						<td class="total-a-pagar"><b>R$ 49,96<b></td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th colspan="4">Preencha os campos abaixo:</th>
+					</tr>
+				</thead>
+				<form>
+					<tr>
+						<td>Nome</td>
+						<td colspan="3"><input type="text" name="nome" placeholder="Digite seu nome" autocomplete required></td>
+					<tr>
+					<tr>
+						<td>Fone</td>
+						<td colspan="3"><input type="tel" name="fone" placeholder="Digite seu telefone" autocomplete required></td>
+					<tr>
+					<tr>
+						<td>Endereço</td>
+						<td colspan="3">
+							<textarea rows="2" cols="50" name="endereco" placeholder="Digite seu endereço" autocomplete required></textarea>
+						</td>
+					<tr>
+					<tr>
+						<td>Forma de Pagamento</td>
+						<td colspan="3">
+							<input type="radio" name="forma-pagamento" value="cartao" required> Cartão de Crédito<br>
+  							<input type="radio" name="forma-pagamento" value="dinheiro" required> Dinheiro
+  							<input type="text" name="troco" placeholder="Troco para quanto?"> 
+  						</td>
+					<tr>
+					<tr>
+						<td colspan="3"></td>
+						<td colspan="1" class="botao"><input type="submit" value="Enviar"></td>
+					</tr>
+				</form>
+			</table>
 		</div>
-
-		<div id="montar-prato-opcoes-selecionadas" class="row">
-			
-			<div class="col-xs-4">
-				<span>Não definido</span>
-			</div>
-
-			<div class="col-xs-4 opcao-do-meio">
-				<span>Não definido</span>
-			</div>
-
-			<div class="col-xs-4">
-				<span>Não definido e Não definido</span>
-			</div>
-
-		</div>
-
-		<section id="montar-prato-itens-da-opcao" class="row">
-
-			<div class="col-xs-6 col-sm-4 col-md-3">
-				<a href="#" title="Spaguethi">
-					<img src="img/macarrao/spaguethi.jpg">
-					<span>Spaguethi</span>
-				</a>
-			</div>
-
-			<div class="col-xs-6 col-sm-4 col-md-3">
-				<a href="#" title="Penne">
-					<img src="img/macarrao/penne.jpg">
-					<span>Penne</span>
-				</a>
-			</div>
-
-			<div class="col-xs-6 col-sm-4 col-md-3">
-				<a href="#" title="Fettuccine">
-					<img src="img/macarrao/fettuccine.jpg">
-					<span>Fettuccine</span>
-				</a>
-			</div>
-
-		</section>
 
 	</section>
 

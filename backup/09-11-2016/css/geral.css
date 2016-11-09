@@ -13,6 +13,18 @@
     src: url(../font/Padrao.ttf);
 }
 
+@media screen and (min-width: 500px) {
+	header#home-cabecalho > div#home-logo {
+		width: auto;
+		margin-top: -100px;
+	}
+
+	header#home-cabecalho > div#home-logo img {
+		width: auto;
+		height: 200px;
+	}
+}
+
 @media screen and (max-width: 500px) {
 	header#geral-cabecalho > div#geral-cabecalho-menu span {
   		display: none;
@@ -37,7 +49,6 @@ header#home-cabecalho > div#home-banner {
 	background: url(../img/home/cabecalho/banner/img3.jpg);
 	background-position: center;
 	background-size: cover;
-	background-repeat: no-repeat;
 	border-bottom-left-radius: 70% 70%;
 	border-bottom-right-radius: 70% 70%;
 	box-shadow: 0px 10px white;
@@ -46,11 +57,11 @@ header#home-cabecalho > div#home-banner {
 header#home-cabecalho > div#home-logo {
 	text-align: center;
 	margin-top: -200px;
-	background: url(../img/logo.png);
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
-	height: 50vh;
+}
+
+header#home-cabecalho > div#home-logo img {
+	width: auto;
+	height: 400px;
 }
 
 section#home-conteudo {
@@ -299,58 +310,3 @@ section#montar-prato > section#montar-prato-itens-da-opcao > div#botao-finalizar
 }
 
 /* Fim dos estilos da montagem de massa */
-
-/* Estilos do carrinho */
-
-section#carrinho-conteudo {
-	padding: 0 10px 23px 10px;
-	background: white url(../img/fundo3.png);
-	background-size: 350px 350px;
-	background-repeat: repeat;
-	font-family: 'Negrito';
-	font-size: 120%;
-	color: #81131B;
-}
-
-section#carrinho-conteudo div + div {
-	padding-top: 20px;
-}
-
-section#carrinho-conteudo table {
-	background: white;
-	margin:0 auto;
-	border: 1px solid #81131B;
-}
-
-section#carrinho-conteudo thead {
-	background: #F6AB40;
-}
-
-section#carrinho-conteudo table th {
-	padding: 10px;
-	font-size: 130%;
-}
-
-section#carrinho-conteudo table td {
-	padding: 10px;
-	text-align: left;
-	vertical-align: middle;
-}
-
-section#carrinho-conteudo table td a {
-	text-decoration: none;
-	color: #F6AB40;
-	font-size: 130%;
-}
-
-section#carrinho-conteudo table td.total-a-pagar {
-	font-size: 130%;
-}
-
-section#carrinho-conteudo table td.botao {
-	text-align: center;
-	vertical-align: middle;
-	font-size: 130%;
-}
-
-/* Fim dos estilos do carrinho */
