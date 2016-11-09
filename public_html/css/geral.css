@@ -4,13 +4,13 @@
 }
 
 @font-face {
-    font-family: HelveticaNeueLTStd-Cn;
-    src: url(../font/HelveticaNeueLTStd-Cn.otf);
+    font-family: Negrito;
+    src: url(../font/Negrito.ttf);
 }
 
 @font-face {
-    font-family: HelveticaNeueLTStd-ThCn;
-    src: url(../font/HelveticaNeueLTStd-ThCn.otf);
+    font-family: Padrao;
+    src: url(../font/Padrao.ttf);
 }
 
 @media screen and (max-width: 500px) {
@@ -23,7 +23,7 @@ body {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-family: 'HelveticaNeueLTStd-Cn', sans-serif;
+	font-family: 'Padrao';
 	background: url(../img/fundo.png);
 	background-size: 30px 30px;
 	background-repeat: repeat;
@@ -57,13 +57,12 @@ section#home-conteudo {
 }
 
 section#home-conteudo span {
-	font-family: 'Pacifico', sans-serif;
+	font-family: 'Pacifico';
 	font-size: 300%;
 	color: white;
 }
 
 section#home-conteudo form {
-	
 	padding: 20px;
 }
 
@@ -79,7 +78,7 @@ section#home-conteudo form input[type="text"] {
 section#home-conteudo form input[type="submit"] {
 	margin-left: -4px;
 	font-size: 120%;
-	font-weight: bold;
+	font-family: 'Padrao';
 	border-color: #F6AB40;
 	border-radius: 0 10px 10px 0;
 	background-color: #F6AB40;
@@ -100,7 +99,6 @@ header#geral-cabecalho > div#geral-cabecalho-menu {
   line-height: 50px;
   background: #F6AB40;
   margin-top: 90px;
-  box-shadow: 0 5px black;
 }
 
 header#geral-cabecalho > div#geral-cabecalho-menu i {
@@ -109,7 +107,7 @@ header#geral-cabecalho > div#geral-cabecalho-menu i {
 
 header#geral-cabecalho > div#geral-cabecalho-menu span {
   font-size: 120%;
-  font-weight: bold;
+	font-family: 'Negrito';
 }
 
 header#geral-cabecalho > div#geral-cabecalho-menu a {
@@ -124,12 +122,12 @@ header#geral-cabecalho > div#geral-cabecalho-menu a:hover {
 }
 
 header#geral-cabecalho > div#geral-cabecalho-menu > div#geral-cabecalho-menu-esquerdo {
-  margin-left: 20px;
+  margin-left: 15px;
   display: inline-block;
 }
 
 header#geral-cabecalho > div#geral-cabecalho-menu > div#geral-cabecalho-menu-direito {
-  margin-right: 20px;
+  margin-right: 15px;
   float:right;
 }
 
@@ -154,7 +152,7 @@ header#geral-cabecalho > section#geral-cabecalho-conteudo {
 }
 
 header#geral-cabecalho > section#geral-cabecalho-conteudo span {
-  font-family: 'Pacifico', sans-serif;
+  font-family: 'Pacifico';
   font-size: 300%;
   color: white;
 }
@@ -198,8 +196,7 @@ section#montar-prato > div#montar-prato-opcoes span {
 	padding: 5px;
 	background: none;
 	color: white;
-	font-weight: bold;
-	border-radius: none;
+	font-family: 'Negrito';
 	transition: linear 1s all;
 }
 
@@ -213,13 +210,12 @@ section#montar-prato > div#montar-prato-opcoes span.selecionado {
 	padding-right: 10px;
 	background: #F6AB40;
 	color: #81131B;
-	font-weight: bold;
-	border-radius: 20px 20px 0 0;
+	border-radius: 10px 10px 0 0;
 }
 
 section#montar-prato > div#montar-prato-opcoes span.selecionado:hover {
 	text-shadow: 0 1px white;
-  	transition: linear 1s all;
+  transition: linear 1s all;
 }
 
 section#montar-prato > div#montar-prato-opcoes-selecionadas {
@@ -238,17 +234,18 @@ section#montar-prato > div#montar-prato-opcoes-selecionadas span {
 	padding: 5px 0;
 	background: none;
 	color: white;
-	font-weight: none;
-	border-radius: none;
+	font-family: 'Negrito';
+	letter-spacing: 1px;
 }
 
 section#montar-prato > section#montar-prato-itens-da-opcao {
 	padding: 10px 0;
-	background: white url(../img/fundo2.png);
+	background: white url(../img/fundo3.png);
 	background-size: 350px 350px;
 	background-repeat: repeat;
 	padding-bottom: 50px;
 }
+
 
 section#montar-prato > section#montar-prato-itens-da-opcao a {
 	text-decoration: none;
@@ -267,8 +264,8 @@ section#montar-prato > section#montar-prato-itens-da-opcao img:hover {
 
 section#montar-prato > section#montar-prato-itens-da-opcao span {
 	font-size: 120%;
+	font-family: 'Negrito';
 	color: #81131B;
-	font-weight: bold;
 	padding: 0 10px 5px 10px;
 	border-radius: 0 0 20px 20px;
 	background: white;
