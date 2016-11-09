@@ -273,10 +273,6 @@ section#montar-prato > section#montar-prato-itens-da-opcao span {
 	background: white;
 }
 
-section#montar-prato > section#montar-prato-itens-da-opcao > div#botao-finalizar {
-	
-}
-
 section#montar-prato > section#montar-prato-itens-da-opcao > div#botao-finalizar > div#botao-finalizar-conteudo {
 	width: auto;
 	height: auto;
@@ -303,7 +299,7 @@ section#montar-prato > section#montar-prato-itens-da-opcao > div#botao-finalizar
 /* Estilos do carrinho */
 
 section#carrinho-conteudo {
-	padding: 0 10px 23px 10px;
+	padding: 0 10px 2px 10px;
 	background: white url(../img/fundo3.png);
 	background-size: 350px 350px;
 	background-repeat: repeat;
@@ -351,6 +347,35 @@ section#carrinho-conteudo table td.botao {
 	text-align: center;
 	vertical-align: middle;
 	font-size: 130%;
+}
+
+section#carrinho-conteudo > div#botao-finalizar {
+	text-align: center;
+}
+
+section#carrinho-conteudo > div#botao-finalizar > div#botao-finalizar-conteudo {
+	width: auto;
+	height: auto;
+	padding: 30px 0 3px 0;
+}
+
+section#carrinho-conteudo > div#botao-finalizar > div#botao-finalizar-conteudo span {
+	background: #81131B;
+	color: white;
+	font-family: 'Negrito';
+	font-size: 200%;
+	padding: 10px 50px;
+	letter-spacing: 1px;
+	border-radius: 10px 10px 0 0;
+	opacity: 1;
+}
+
+section#carrinho-conteudo > div#botao-finalizar > div#botao-finalizar-conteudo span:hover {
+	opacity: .95;
+}
+
+section#carrinho-conteudo > div#botao-finalizar > div#botao-finalizar-conteudo a {
+	text-decoration: none;
 }
 
 /* Fim dos estilos do carrinho */
