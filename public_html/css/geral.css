@@ -256,7 +256,7 @@ section#montar-prato > section#montar-prato-itens-da-opcao a {
 section#montar-prato > section#montar-prato-itens-da-opcao img {
 	width: 100%;
 	height: auto;
-	border: 1px solid #81131B;
+	box-shadow: 5px 5px 5px #81131B;
 	opacity: .9;
 }
 
@@ -315,7 +315,7 @@ section#carrinho-conteudo div + div {
 section#carrinho-conteudo table {
 	background: white;
 	margin:0 auto;
-	border: 1px solid #81131B;
+	box-shadow: 5px 5px 5px #81131B;
 }
 
 section#carrinho-conteudo thead {
