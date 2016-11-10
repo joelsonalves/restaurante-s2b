@@ -33,7 +33,7 @@ body {
 
 header#home-cabecalho > div#home-banner {
 	width: 100vw;
-	height: 200px;
+	height: 40vh;
 	background: url(../img/home/cabecalho/banner/img3.jpg);
 	background-position: center;
 	background-size: cover;
@@ -45,7 +45,7 @@ header#home-cabecalho > div#home-banner {
 
 header#home-cabecalho > div#home-logo {
 	text-align: center;
-	margin-top: -140px;
+	margin-top: -200px;
 	background: url(../img/logo.png);
 	background-position: center;
 	background-size: contain;
@@ -306,7 +306,7 @@ section#carrinho-conteudo {
 	font-family: 'Negrito';
 	font-size: 120%;
 	color: #81131B;
-	overflow-x: auto;
+	overflow-x: scroll;
 }
 
 section#carrinho-conteudo div + div {
